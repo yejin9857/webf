@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding-block: 2.5rem;
+  padding-inline: 2.5rem;
+  margin-inline: auto;
+  background-color: antiquewhite;
+}
+
+.box {
+  min-width: 50px;
+  min-height: 50px;
+  background-color: aquamarine;
+}

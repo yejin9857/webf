@@ -1,0 +1,150 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  background-color: pink;
+}
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.subhead {
+  font-size: 14px;
+}
+
+.header,
+.profile-icon {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 256rem;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.grp-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 12px;
+  padding-inline: 1rem 0.25rem;
+}
+
+.grp-left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.image {
+  aspect-ratio: 2/1;
+  overflow: hidden;
+  background-color: bisque;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  max-width: 25rem;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.subhead {
+  font-size: 14px;
+}
+
+.body {
+  font-size: 14px;
+}
+
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 40px;
+  padding: 1rem;
+  color: palevioletred;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 256rem;
+}
+
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 40px;
+  padding: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: palevioletred;
+  border: 1px solid palevioletred;
+  border-radius: 256rem;
+}
+
+.grp-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+}
+
+.body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
